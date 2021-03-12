@@ -56,7 +56,7 @@ class Main extends Component {
           <Route exact path="/menu" component={() => <Menu dishes ={this.state.dishes}/>}/>
           <Route exact path='/contactus' component={Contact} />
           <Route path='/menu/:dishId' component={DishWithId} />
-          <Route exact  path='/aboutus' component={Aboutus}/>
+          <Route exact path='/aboutus' component={Aboutus}/>
           <Redirect to="/home"/>
 
         </Switch>
